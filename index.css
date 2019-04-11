@@ -1,0 +1,22 @@
+nav {
+}
+
+nav ul{
+}
+nav li {
+	float: none;
+}
+nav a:hover, nav a:active, nav a:focus { /* this changes the background and text color for both mouse and keyboard navigators */
+	color: #FFF;
+}
+nav a, nav a:link, nav a:visited { /* grouping these selectors makes sure that your links retain their button look even after being visited */
+	display: block; /* this gives the link block properties causing it to fill the whole LI containing it. This causes the entire area to react to a mouse click. */
+	width: 100%;  /*this width makes the entire button clickable for IE6. If you don't need to support IE6, it can be removed. Calculate the proper width by subtracting the padding on this link from the width of your sidebar container. */
+	text-decoration: none;
+	text-align: center;
+	margin-bottom: 0.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	color: #000000;
+	font-size: 1.25em;
+}
